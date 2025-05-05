@@ -9,10 +9,122 @@ html, body {
   width: 100%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: black;
-  color: white;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+html span, body span {
+  color: #ff4d05;
 }
 
+section1 {
+  position: sticky;
+  top: 3%;
+  background-color: balck;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  gap: 50rem;
+  color: white;
+  justify-content: center;
+}
 section1 p {
-  padding: 10px;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: xx-large;
+  letter-spacing: 2px;
+}
+section1 p span {
+  color: #ff4d05;
+}
+section1 nav {
+  display: flex;
+  gap: 4rem;
+}
+section1 nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: none;
+  border-radius: 10px;
+  padding: 7px;
+}
+section1 nav a:hover {
+  background-color: #ff4d05;
+}
+
+section2 {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+section2 #content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10%;
+}
+section2 #content #hello {
+  font-size: 2.5rem;
+  margin-left: 0.3rem;
+}
+section2 #content #name {
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-size: 6rem;
+}
+section2 #content #btns {
+  display: flex;
+  gap: 15px;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+}
+section2 #content #desc {
+  margin-left: 0.5rem;
+}
+section2 #content #Dwonload {
+  background-color: #ff4d05;
+}
+section2 #content #work {
+  border-color: white;
+  background-color: black;
+}
+section2 #content #desc {
+  font-size: 1.5rem;
+  word-spacing: 4px;
+  letter-spacing: 4px;
+}
+section2 #content button {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  width: 10rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+section2 #content button:active {
+  scale: 0.95;
+}
+section2 img {
+  height: 600px;
+  width: 600px;
+}
+
+section3 {
+  align-content: center;
+  color: white;
+}
+section3 h1 {
+  margin-left: 45%;
+}
+section3 p {
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */
