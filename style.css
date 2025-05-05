@@ -127,4 +127,94 @@ section3 h1 {
 }
 section3 p {
   margin-top: 20px;
+}
+
+@media (max-width: 1020px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 18px;
+  }
+  html span, body span {
+    color: #ff4d05;
+  }
+  section1 {
+    gap: 6rem;
+    display: flex;
+    flex-direction: row;
+    color: white;
+  }
+  section1 p {
+    font-size: 1.05rem;
+  }
+  section1 nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  section1 a {
+    font-size: 0.85rem;
+    border-radius: 5px;
+    padding: 4px;
+    text-decoration: none;
+    color: white;
+  }
+  section1 a:hover {
+    background-color: #ff4d05;
+  }
+  section2 {
+    margin-top: 2rem;
+    color: white;
+  }
+  section2 #content {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  section2 #content #hello {
+    font-size: 1.5rem;
+  }
+  section2 #content #name {
+    letter-spacing: 0.05rem;
+    font-size: 3rem;
+  }
+  section2 #content #desc {
+    font-size: 0.9rem;
+    word-spacing: 0rem;
+    letter-spacing: 0.1rem;
+  }
+  section2 #content #btns {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  section2 #content button {
+    height: 2rem;
+    border-radius: 5px;
+    padding: 0.2rem;
+    width: 6rem;
+  }
+  section2 #content #Dwonload {
+    border-color: white;
+    background-color: #ff4d05;
+  }
+  section2 #content #work {
+    border-color: white;
+    color: white;
+    background-color: black;
+  }
+  section3 {
+    color: white;
+  }
 }/*# sourceMappingURL=style.css.map */
